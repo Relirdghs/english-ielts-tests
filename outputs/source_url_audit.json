@@ -1,0 +1,253 @@
+{
+  "summary": {
+    "checkedAt": "2026-06-26T21:17:09.823Z",
+    "uniqueSourceUrls": 30,
+    "accepted": 30,
+    "natureStatus200": 24,
+    "scienceDoi403Accepted": 6,
+    "allArticleLevel": true,
+    "failures": []
+  },
+  "results": [
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07487-w",
+      "title": "Nature, 2024 - Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-08252-9",
+      "title": "Nature, 2024 - Probabilistic weather forecasting with machine learning",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-08897-0",
+      "title": "Nature, 2025 - End-to-end data-driven weather prediction",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-09005-y",
+      "title": "Nature, 2025 - A foundation model for the Earth system",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07744-y",
+      "title": "Nature, 2024 - Neural general circulation models for weather and climate",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41591-024-03097-1",
+      "title": "Nature Medicine, 2024 - Evaluation and mitigation of the limitations of large language models in clinical decision-making",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41591-024-03233-x",
+      "title": "Nature Medicine, 2024 - A foundation model for clinician-centered drug repurposing",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41591-024-03141-0",
+      "title": "Nature Medicine, 2024 - A foundation model for clinical-grade computational pathology and rare cancers detection",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41591-025-03982-3",
+      "title": "Nature Medicine, 2025 - A multimodal whole-slide foundation model for pathology",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-024-02062-9",
+      "title": "Nature Human Behaviour, 2024 - Examining the replicability of online experiments selected by a prediction market",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-024-01961-1",
+      "title": "Nature Human Behaviour, 2024 - Predicting the replicability of social and behavioural science claims",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-024-02090-5",
+      "title": "Nature Human Behaviour, 2024 - Trust in scientists and their role in society across 68 countries",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-024-51152-9",
+      "title": "Nature Communications, 2024 - Climate impacts of critical mineral supply chain bottlenecks",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s44406-025-00009-1",
+      "title": "Nature, 2025 - Understanding supply chain constraints for the US clean energy transition",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/sciadv.adz8478",
+      "title": "Science Advances, 2026 - Net release of CO2 from thawing permafrost soil carbon predicted to be extensive",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/sciadv.adq4893",
+      "title": "Science Advances, 2024 - Temperature sensitivity of the mineral permafrost feedback",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/sciadv.adt8366",
+      "title": "Science Advances, 2025 - Climate-carbon feedback tradeoff between Arctic and alpine permafrost regions",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-09482-1",
+      "title": "Nature, 2025 - Long-range PM2.5 pollution and health impacts from the 2023 Canadian wildfires",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s43247-025-02314-0",
+      "title": "Communications Earth & Environment, 2025 - Anthropogenic climate change contributes to wildfire particulate matter deaths",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41893-025-01533-9",
+      "title": "Nature Sustainability, 2025 - Respiratory risks from wildfire-specific PM2.5 across multiple countries",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07395-z",
+      "title": "Nature, 2024 - A warm Neptune's methane reveals core mass and vigorous atmospheric mixing",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41550-025-02513-x",
+      "title": "Nature Astronomy, 2025 - SiO and a super-stellar C/O ratio in the atmosphere of WASP-121b",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-022-05269-w",
+      "title": "Nature, 2022 - Identification of carbon dioxide in an exoplanet atmosphere",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-64612-5",
+      "title": "Scientific Reports, 2024 - From eDNA to decisions using a multi-method approach to watershed conservation",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s43247-024-01970-y",
+      "title": "Communications Earth & Environment, 2024 - eDNA offers opportunities for improved biodiversity monitoring and reporting",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s42256-024-00932-5",
+      "title": "Nature Machine Intelligence, 2024 - Stable Cox regression for survival analysis under distribution shifts",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-08328-6",
+      "title": "Nature, 2024 - Accurate predictions on small data with a tabular foundation model",
+      "status": 200,
+      "articleLevel": true,
+      "accepted": true,
+      "note": ""
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/scirobotics.ads5033",
+      "title": "Science Robotics, 2025 - Precise and dexterous robotic manipulation via human-in-the-loop reinforcement learning",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/scirobotics.adi8808",
+      "title": "Science Robotics, 2024 - SimPLE, a visuotactile method learned in simulation to precisely pick, localize, regrasp, and place objects",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/scirobotics.adi9579",
+      "title": "Science Robotics, 2024 - Real-world humanoid locomotion with reinforcement learning",
+      "status": 403,
+      "articleLevel": true,
+      "accepted": true,
+      "note": "Science.org DOI returned 403 to automated fetch; DOI URL shape is article-level."
+    }
+  ]
+}

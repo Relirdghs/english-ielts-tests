@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-06-26T21:17:09.021Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "export-integrity-pass",
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "checks": [
+    {
+      "name": "json-export",
+      "status": "pass",
+      "evidence": {
+        "filename": "academic-assessment-results.json",
+        "bytes": 2045765,
+        "bankVersion": "ACC-C1C2-2026.27",
+        "itemCount": 300,
+        "answerHistoryRecords": 1
+      }
+    },
+    {
+      "name": "json-exam-protocol",
+      "status": "pass",
+      "evidence": {
+        "sections": 3,
+        "finalProtocolReady": false,
+        "breakKeys": "afterA|afterB"
+      }
+    },
+    {
+      "name": "json-cefr-explanation",
+      "status": "pass",
+      "evidence": {
+        "profile": "C1 Developing",
+        "weightedPercent": 0,
+        "evidenceRows": 3
+      }
+    },
+    {
+      "name": "json-question-order",
+      "status": "pass",
+      "evidence": {
+        "randomQuestions": false,
+        "blocks": "A:1-100|B:101-200|C:201-300"
+      }
+    },
+    {
+      "name": "csv-export",
+      "status": "pass",
+      "evidence": {
+        "filename": "academic-assessment-results.csv",
+        "bytes": 29061,
+        "rowCount": 300,
+        "hasCorrectSourceColumn": true,
+        "hasEvaluatorNoteColumn": true
+      }
+    },
+    {
+      "name": "candidate-report-boundary",
+      "status": "pass",
+      "evidence": {
+        "filename": "academic-assessment-candidate-report.html",
+        "bytes": 1793,
+        "leakageTerms": 0
+      }
+    },
+    {
+      "name": "evaluator-report-boundary",
+      "status": "pass",
+      "evidence": {
+        "filename": "academic-assessment-evaluator-report.html",
+        "bytes": 2642,
+        "hasCorrectColumn": true,
+        "hasRationaleColumn": true,
+        "hasEvaluatorNote": true
+      }
+    },
+    {
+      "name": "pdf-print-surface",
+      "status": "pass",
+      "evidence": {
+        "printCount": 1
+      }
+    }
+  ],
+  "privacyBoundary": {
+    "candidateReportRedacted": true,
+    "evaluatorReportIncludesKeys": true
+  },
+  "failures": []
+}

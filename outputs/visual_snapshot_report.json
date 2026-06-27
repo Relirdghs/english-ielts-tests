@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-06-26T21:16:55.250Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "visual-snapshot-pass",
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "snapshots": [
+    {
+      "scene": "desktop-learning",
+      "file": "snapshot_desktop_learning.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "metrics": {
+        "options": 5,
+        "progressDots": 300,
+        "exportButtons": 5,
+        "horizontalOverflow": false
+      },
+      "image": {
+        "width": 1440,
+        "height": 1000,
+        "bytes": 232702,
+        "sampledPixels": 6000,
+        "sampledColorBins": 46,
+        "brightnessMean": 41.3,
+        "brightnessVariance": 2517.41,
+        "darkSampleRatio": 0.863,
+        "lightSampleRatio": 0.028
+      },
+      "failures": []
+    },
+    {
+      "scene": "desktop-category-c",
+      "file": "snapshot_category_c_visual.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "metrics": {
+        "item": "ACC_201",
+        "dataTables": 1,
+        "visualizations": 1,
+        "vizRows": 3,
+        "ariaVisualizations": 1,
+        "horizontalOverflow": false
+      },
+      "image": {
+        "width": 1440,
+        "height": 1000,
+        "bytes": 220102,
+        "sampledPixels": 6000,
+        "sampledColorBins": 40,
+        "brightnessMean": 36.11,
+        "brightnessVariance": 2104.34,
+        "darkSampleRatio": 0.875,
+        "lightSampleRatio": 0.023
+      },
+      "failures": []
+    },
+    {
+      "scene": "admin-review",
+      "file": "snapshot_admin_review.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "metrics": {
+        "adminPanels": 3,
+        "fileInputs": 3,
+        "hasExpert": true,
+        "hasPilot": true,
+        "horizontalOverflow": false
+      },
+      "image": {
+        "width": 1440,
+        "height": 1000,
+        "bytes": 226433,
+        "sampledPixels": 6000,
+        "sampledColorBins": 43,
+        "brightnessMean": 40.99,
+        "brightnessVariance": 2645.08,
+        "darkSampleRatio": 0.856,
+        "lightSampleRatio": 0.029
+      },
+      "failures": []
+    },
+    {
+      "scene": "mobile-initial",
+      "file": "snapshot_mobile_initial.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "metrics": {
+        "options": 5,
+        "topbarHeight": 268,
+        "actionsPosition": "sticky",
+        "horizontalOverflow": false
+      },
+      "image": {
+        "width": 390,
+        "height": 844,
+        "bytes": 54222,
+        "sampledPixels": 6096,
+        "sampledColorBins": 65,
+        "brightnessMean": 42.36,
+        "brightnessVariance": 2213.47,
+        "darkSampleRatio": 0.75,
+        "lightSampleRatio": 0.024
+      },
+      "failures": []
+    }
+  ],
+  "failures": []
+}

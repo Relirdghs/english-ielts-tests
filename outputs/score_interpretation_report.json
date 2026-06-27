@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.814Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "provisional-score-interpretation-ready",
+  "calibrationStatus": "awaiting-pilot-data",
+  "governanceDecision": "controlled-beta-only",
+  "scoringBasis": {
+    "itemCount": 300,
+    "totalWeight": 330,
+    "rawScore": "sum of item scores divided by submitted/possible items",
+    "weightedScore": "sum of item score multiplied by scoringWeight divided by possible weight",
+    "partialCredit": "partial credit = correct selections ratio minus wrong selections penalty, floored at 0",
+    "confidenceAdjustedScore": "candidate confidence is recorded before submit and compared with correctness"
+  },
+  "provisionalBands": [
+    {
+      "profile": "C1 Developing",
+      "minWeightedPercent": 0,
+      "maxWeightedPercent": 0.599,
+      "reportableClaim": "Candidate shows partial control of academic reading and usage tasks but should receive targeted review before high-stakes C1 claims.",
+      "recommendedAction": "Use skill analytics and review mode before retesting."
+    },
+    {
+      "profile": "C1 Secure",
+      "minWeightedPercent": 0.6,
+      "maxWeightedPercent": 0.759,
+      "reportableClaim": "Candidate appears secure on many C1 academic tasks in this bank, subject to item review and pilot calibration limits.",
+      "recommendedAction": "Check weakest modules and confidence calibration."
+    },
+    {
+      "profile": "C2 Emerging",
+      "minWeightedPercent": 0.76,
+      "maxWeightedPercent": 0.879,
+      "reportableClaim": "Candidate shows emerging C2-level performance across complex academic tasks, but production claims require calibrated cut scores.",
+      "recommendedAction": "Confirm performance across methodology and data interpretation items."
+    },
+    {
+      "profile": "C2 Secure",
+      "minWeightedPercent": 0.88,
+      "maxWeightedPercent": 1,
+      "reportableClaim": "Candidate performs strongly on the current high-level academic assessment bank; do not treat this as certified C2 without external validation.",
+      "recommendedAction": "Use evaluator review for high-stakes decisions."
+    }
+  ],
+  "interpretationBoundaries": [
+    "Score bands are provisional and must not be marketed as official CEFR certification.",
+    "Production cut scores require expert standard setting and representative pilot calibration.",
+    "Low item coverage, unusual timing, random-click patterns or unresolved accessibility barriers should downgrade confidence in interpretation.",
+    "Skill-level analytics are diagnostic signals, not standalone certification claims.",
+    "Confidence-adjusted scores support metacognitive feedback; they are not replacement cut scores."
+  ],
+  "standardSetting": {
+    "requiredPanelRoles": [
+      "assessment lead",
+      "C1/C2 academic English expert",
+      "methodologist",
+      "psychometrician",
+      "accessibility reviewer"
+    ],
+    "minimumPanelSize": 5,
+    "method": "Modified Angoff plus bookmark review after pilot response data",
+    "requiredRounds": [
+      "construct briefing",
+      "item-level expected-candidate judgments",
+      "impact-data review from pilot responses",
+      "cut-score reconciliation",
+      "documentation and signoff"
+    ],
+    "requiredEvidence": [
+      "expert item judgments",
+      "pilot facility and discrimination",
+      "standard error or reliability evidence",
+      "differential performance review when sample allows",
+      "published limitations for candidate and evaluator reports"
+    ]
+  },
+  "reportRules": {
+    "candidateReport": "Show profile, raw, weighted and confidence-adjusted scores; omit answer keys and rationales.",
+    "evaluatorReport": "Show answer keys, rationales, timing, confidence, item metadata and evaluator notes.",
+    "minimumDiagnosticCoverage": "Do not make profile claims from very short drills; use short modes for diagnostics only.",
+    "highStakesUse": "Requires completed expert adjudication, pilot calibration, standard-setting signoff and secure delivery."
+  },
+  "productionGate": {
+    "ready": false,
+    "blockers": [
+      "pilot calibration missing",
+      "governance release is not production-eligible",
+      "standard-setting panel signoff missing"
+    ]
+  }
+}

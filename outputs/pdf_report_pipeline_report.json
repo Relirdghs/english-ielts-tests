@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-26T21:17:21.274544+00:00",
+  "status": "prototype-pass",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "pipeline": "reportlab-pypdf-poppler",
+  "outputs": {
+    "candidatePdf": "pdf/academic-assessment-candidate-report.pdf",
+    "evaluatorPdf": "pdf/academic-assessment-evaluator-report.pdf",
+    "candidatePreview": "pdf/academic-assessment-candidate-report-preview.png",
+    "evaluatorPreview": "pdf/academic-assessment-evaluator-report-preview.png"
+  },
+  "evidence": {
+    "candidateRedacted": true,
+    "evaluatorHasKeyAndRationale": true,
+    "candidatePages": 1,
+    "evaluatorPages": 1,
+    "candidateBytes": 2842,
+    "evaluatorBytes": 4188,
+    "renderedPreviewPages": 2
+  },
+  "limitations": [
+    "Prototype renders deterministic sample reports locally.",
+    "Production still needs signed report access, managed rendering workers, retention policy and delivery logging."
+  ]
+}

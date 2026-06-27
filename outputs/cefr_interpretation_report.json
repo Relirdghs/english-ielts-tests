@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.896Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "cefr-interpretation-ready",
+  "calibrationStatus": "awaiting-pilot-data",
+  "productionReady": false,
+  "bands": [
+    {
+      "profile": "C1 Developing",
+      "minWeightedPercent": 0,
+      "maxWeightedPercent": 0.599,
+      "claim": "Candidate shows partial control of academic reading and usage tasks but should receive targeted review before high-stakes C1 claims.",
+      "recommendedAction": "Use skill analytics and review mode before retesting."
+    },
+    {
+      "profile": "C1 Secure",
+      "minWeightedPercent": 0.6,
+      "maxWeightedPercent": 0.759,
+      "claim": "Candidate appears secure on many C1 academic tasks in this bank, subject to item review and pilot calibration limits.",
+      "recommendedAction": "Check weakest modules and confidence calibration."
+    },
+    {
+      "profile": "C2 Emerging",
+      "minWeightedPercent": 0.76,
+      "maxWeightedPercent": 0.879,
+      "claim": "Candidate shows emerging C2-level performance across complex academic tasks, but production claims require calibrated cut scores.",
+      "recommendedAction": "Confirm performance across methodology and data interpretation items."
+    },
+    {
+      "profile": "C2 Secure",
+      "minWeightedPercent": 0.88,
+      "maxWeightedPercent": 1,
+      "claim": "Candidate performs strongly on the current high-level academic assessment bank; do not treat this as certified C2 without external validation.",
+      "recommendedAction": "Use evaluator review for high-stakes decisions."
+    }
+  ],
+  "runtimeEvidence": [
+    "cefrBandFor",
+    "cefrProfileExplanation",
+    "profile.profileExplanation",
+    "CEFR rationale in candidate/evaluator reports"
+  ],
+  "limitations": [
+    "Score bands are provisional and must not be marketed as official CEFR certification.",
+    "Production cut scores require expert standard setting and representative pilot calibration.",
+    "Low item coverage, unusual timing, random-click patterns or unresolved accessibility barriers should downgrade confidence in interpretation.",
+    "Skill-level analytics are diagnostic signals, not standalone certification claims.",
+    "Confidence-adjusted scores support metacognitive feedback; they are not replacement cut scores."
+  ],
+  "checks": [
+    {
+      "name": "four-provisional-bands",
+      "status": "pass"
+    },
+    {
+      "name": "runtime-band-function",
+      "status": "pass"
+    },
+    {
+      "name": "runtime-explanation-function",
+      "status": "pass"
+    },
+    {
+      "name": "candidate-report-rationale",
+      "status": "pass"
+    },
+    {
+      "name": "dashboard-copy",
+      "status": "pass"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.862Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "governance-ready-human-gates-pending",
+  "itemCount": 300,
+  "idPolicy": {
+    "stablePrefix": "ACC_",
+    "currentRange": "ACC_001-ACC_300",
+    "nextNamespace": "ACC_301-ACC_600",
+    "idsUnique": true,
+    "idsConform": true,
+    "minNumericId": 1,
+    "maxNumericId": 300,
+    "idReusePolicy": "Retired IDs remain reserved and must not be reused in later banks."
+  },
+  "lifecycle": {
+    "authoringPipeline": [
+      "draft",
+      "linted",
+      "expert-review",
+      "approved",
+      "retired"
+    ],
+    "authoringStatusCounts": {
+      "linted": 300
+    },
+    "reviewStageCounts": {
+      "awaiting-human-adjudication": 300
+    },
+    "retirementRuleCoverage": 300,
+    "manualChecklistCoverage": 300
+  },
+  "releaseControls": {
+    "productionBlockers": [
+      {
+        "gate": "expert-adjudication",
+        "status": "pending",
+        "evidence": "expert_adjudication_report.json",
+        "requiredForProduction": true
+      },
+      {
+        "gate": "pilot-psychometrics",
+        "status": "pending",
+        "evidence": "psychometric_calibration_report.json",
+        "requiredForProduction": true
+      },
+      {
+        "gate": "standard-setting",
+        "status": "pending",
+        "evidence": "score_interpretation_report.json, standard_setting_protocol.md",
+        "requiredForProduction": true
+      },
+      {
+        "gate": "source-url-audit",
+        "status": "complete",
+        "evidence": "source_url_audit.json",
+        "requiredForProduction": true
+      },
+      {
+        "gate": "bank-blueprint",
+        "status": "complete",
+        "evidence": "construct_coverage_report.json, distractor_quality_report.json",
+        "requiredForProduction": true
+      },
+      {
+        "gate": "hygiene",
+        "status": "complete",
+        "evidence": "hygiene_audit_report.json",
+        "requiredForProduction": true
+      }
+    ],
+    "releaseDecision": "controlled-beta-only"
+  },
+  "nextBankPlan": {
+    "namespace": "ACC_301-ACC_600",
+    "itemTarget": 300,
+    "categoryTargets": {
+      "A": 100,
+      "B": 100,
+      "C": 100
+    },
+    "sourceOverlapPolicy": "Use a new article-level source set; do not reuse the current 30 source horizons as the main evidence base.",
+    "humanGatePolicy": "Future items may start from templates but cannot enter approved status without lint, source audit, expert review and pilot evidence.",
+    "requiredArtifacts": [
+      "draft item JSON",
+      "source horizon register",
+      "lint report",
+      "expert review rows",
+      "construct coverage update",
+      "distractor quality update",
+      "pilot response calibration import"
+    ],
+    "prohibitedShortcuts": [
+      "direct mass generation into approved status",
+      "reusing retired item IDs",
+      "copying source article prose into passages",
+      "shipping production claims before expert adjudication and pilot calibration"
+    ]
+  },
+  "roleModel": [
+    {
+      "role": "candidate",
+      "access": "attempt runtime and candidate-safe reports only"
+    },
+    {
+      "role": "teacher-evaluator",
+      "access": "authorized evaluator reports, notes and class-level exports"
+    },
+    {
+      "role": "expert-reviewer",
+      "access": "review templates, adjudication protocol and item evidence"
+    },
+    {
+      "role": "psychometrician",
+      "access": "pilot rows, item statistics and retirement recommendations"
+    },
+    {
+      "role": "release-manager",
+      "access": "release checklist, changelog, QA dashboard and readiness decision"
+    }
+  ],
+  "findings": []
+}

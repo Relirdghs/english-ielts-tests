@@ -1,0 +1,5 @@
+"scene","file","status","width","height","bytes","sampled_color_bins","brightness_variance","horizontal_overflow","failure_count"
+"desktop-learning","snapshot_desktop_learning.png","pass","1440","1000","232702","46","2517.41","false","0"
+"desktop-category-c","snapshot_category_c_visual.png","pass","1440","1000","220102","40","2104.34","false","0"
+"admin-review","snapshot_admin_review.png","pass","1440","1000","226433","43","2645.08","false","0"
+"mobile-initial","snapshot_mobile_initial.png","pass","390","844","54222","65","2213.47","false","0"

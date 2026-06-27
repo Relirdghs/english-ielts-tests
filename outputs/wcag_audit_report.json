@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-06-26T21:16:54.009Z",
+  "status": "automated-readiness-pass-human-at-pending",
+  "humanAssistiveTechnologyAuditRequired": true,
+  "evidence": {
+    "skipLink": true,
+    "landmarks": {
+      "banner": true,
+      "main": true,
+      "controls": true,
+      "analytics": true
+    },
+    "progressNav": true,
+    "activeProgressCurrent": 1,
+    "liveRegion": true,
+    "questionRegion": true,
+    "optionsGroup": true,
+    "pressedToggles": 8,
+    "collapsibleAnalytics": {
+      "toggles": 8,
+      "controlledPanels": 8
+    },
+    "contrastSamples": [
+      {
+        "selector": ".prompt",
+        "ratio": 17.06
+      },
+      {
+        "selector": ".option span",
+        "ratio": 17.06
+      },
+      {
+        "selector": "button",
+        "ratio": 17.06
+      },
+      {
+        "selector": ".muted",
+        "ratio": 8.42
+      },
+      {
+        "selector": ".chip",
+        "ratio": 8.42
+      },
+      {
+        "selector": ".source a",
+        "ratio": 6.84
+      }
+    ],
+    "dataVisualizationAccessibility": {
+      "visualizations": 1,
+      "labelledVisualizations": 1,
+      "rows": 3,
+      "tableFallbacks": 1
+    },
+    "focusVisible": true,
+    "skipActivation": {
+      "activeId": "question-panel",
+      "targetTop": 0
+    },
+    "shortcutDialog": {
+      "visible": true,
+      "label": "Keyboard shortcuts"
+    },
+    "mobileMetrics": {
+      "horizontalOverflow": false,
+      "actionableControls": 374
+    }
+  },
+  "manualProtocol": "wcag_assistive_tech_protocol.md",
+  "conformanceMatrix": "wcag_conformance_matrix.json",
+  "limitations": [
+    "Automated checks cannot prove screen-reader comprehension.",
+    "Formal conformance requires human assistive-technology signoff."
+  ]
+}

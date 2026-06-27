@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.990Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "operations-ready-controlled-beta",
+  "itemCount": 300,
+  "controlledBetaReady": true,
+  "productionReady": false,
+  "controls": [
+    {
+      "domain": "authentication",
+      "controlledBeta": true,
+      "productionRequirement": "Hosted identity, role mapping, session expiry, MFA for administrators and auditable evaluator access."
+    },
+    {
+      "domain": "storage",
+      "controlledBeta": true,
+      "productionRequirement": "Managed database, encrypted backups, retention jobs, restore drills and deletion workflow."
+    },
+    {
+      "domain": "report-delivery",
+      "controlledBeta": true,
+      "productionRequirement": "Signed report URLs, access logs, report expiry and managed rendering workers."
+    },
+    {
+      "domain": "audit-logging",
+      "controlledBeta": true,
+      "productionRequirement": "Centralized immutable logs, alerting, log retention and incident correlation."
+    },
+    {
+      "domain": "accessibility-operations",
+      "controlledBeta": true,
+      "productionRequirement": "Human assistive-technology audit signoff and regression plan for every release."
+    },
+    {
+      "domain": "release-governance",
+      "controlledBeta": true,
+      "productionRequirement": "Named release owner, signoff checklist, rollback criteria and change freeze rules."
+    },
+    {
+      "domain": "score-claims",
+      "controlledBeta": true,
+      "productionRequirement": "Completed standard setting, pilot calibration and public score-claim boundaries."
+    },
+    {
+      "domain": "hygiene",
+      "controlledBeta": true,
+      "productionRequirement": "CI-enforced no-secret, no-unexpected-email and no-remote-script checks."
+    }
+  ],
+  "productionBlockers": [
+    "hosted authentication and authorization",
+    "managed durable storage with backups and retention",
+    "centralized logs and monitoring",
+    "signed report delivery",
+    "formal WCAG assistive-technology signoff",
+    "expert adjudication",
+    "pilot psychometric calibration",
+    "standard-setting signoff",
+    "production proctoring policy and appeal workflow"
+  ],
+  "operatingModel": {
+    "environments": [
+      "local-offline",
+      "controlled-beta-server",
+      "production-hosted"
+    ],
+    "requiredRoles": [
+      "release-manager",
+      "assessment-lead",
+      "teacher-evaluator",
+      "support-operator",
+      "security-owner"
+    ],
+    "minimumRunbooks": [
+      "production_deployment_runbook.md",
+      "data_retention_policy.md",
+      "proctoring_integrity_policy.md",
+      "incident_response_runbook.md"
+    ]
+  },
+  "limitations": [
+    "The current operations package supports controlled beta planning, not production hosting.",
+    "Production still requires managed infrastructure, live monitoring, legal review and support ownership."
+  ]
+}

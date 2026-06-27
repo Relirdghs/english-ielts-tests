@@ -1,0 +1,695 @@
+{
+  "generatedAt": "2026-06-27T06:41:19.155Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "decision": "controlled-beta-ready-not-production-complete",
+  "qaRollup": {
+    "pass": 20,
+    "pending": 3,
+    "fail": 0
+  },
+  "goalRollup": {
+    "pending-external": 2,
+    "complete": 52,
+    "partial": 10,
+    "readiness-pass": 3
+  },
+  "externalBlockers": [
+    "independent expert adjudication",
+    "pilot psychometric data",
+    "formal standard-setting signoff",
+    "assistive-technology signoff",
+    "production auth, storage and hosting",
+    "production proctoring controls"
+  ],
+  "checks": [
+    {
+      "id": 1,
+      "planItem": "Expert review of all 300 items",
+      "status": "pending-external",
+      "evidence": [
+        "expert_adjudication_report.json",
+        "status=awaiting-human-adjudication",
+        "reviewers=0"
+      ],
+      "note": "Requires independent human adjudication."
+    },
+    {
+      "id": 2,
+      "planItem": "Balanced modules",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "modules=9",
+        "items=300"
+      ],
+      "note": ""
+    },
+    {
+      "id": 3,
+      "planItem": "Difficulty tiers",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "tiers=4"
+      ],
+      "note": ""
+    },
+    {
+      "id": 4,
+      "planItem": "Complete item metadata",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "metadata fields present"
+      ],
+      "note": ""
+    },
+    {
+      "id": 5,
+      "planItem": "Distractor taxonomy",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "trapTypes=9"
+      ],
+      "note": ""
+    },
+    {
+      "id": 6,
+      "planItem": "item_bank source of truth",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "academic_test_manifest.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 7,
+      "planItem": "Authoring pipeline",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "bank_governance_report.json",
+        "status=governance-ready-human-gates-pending"
+      ],
+      "note": "Human gates remain explicit."
+    },
+    {
+      "id": 8,
+      "planItem": "Bank linting",
+      "status": "complete",
+      "evidence": [
+        "bank_quality_review_report.json",
+        "hygiene_audit_report.json",
+        "hygiene=pass"
+      ],
+      "note": ""
+    },
+    {
+      "id": 9,
+      "planItem": "Source report",
+      "status": "complete",
+      "evidence": [
+        "source_verification_report.json",
+        "source_url_audit.json",
+        "coverage=300"
+      ],
+      "note": ""
+    },
+    {
+      "id": 10,
+      "planItem": "Category C visuals",
+      "status": "complete",
+      "evidence": [
+        "data_visualization_readiness_report.json",
+        "withDataDisplays=100"
+      ],
+      "note": ""
+    },
+    {
+      "id": 11,
+      "planItem": "SPA data tables",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html",
+        "category_c_visualization_matrix.csv"
+      ],
+      "note": ""
+    },
+    {
+      "id": 12,
+      "planItem": "Full exam protocol",
+      "status": "complete",
+      "evidence": [
+        "exam_protocol_report.json",
+        "status=exam-protocol-ready"
+      ],
+      "note": ""
+    },
+    {
+      "id": 13,
+      "planItem": "Short and domain modes",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html",
+        "domains=30",
+        "category and domain filters exist"
+      ],
+      "note": "Domain drill presets are filters, not named drill attempts."
+    },
+    {
+      "id": 14,
+      "planItem": "Adaptive mode",
+      "status": "readiness-pass",
+      "evidence": [
+        "adaptive_readiness_report.json",
+        "status=heuristic-adaptive-ready-calibrated-cat-pending"
+      ],
+      "note": "Calibrated IRT/CAT waits for pilot data."
+    },
+    {
+      "id": 15,
+      "planItem": "Scoring model",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "score_interpretation_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 16,
+      "planItem": "CEFR explanation",
+      "status": "readiness-pass",
+      "evidence": [
+        "cefr_interpretation_report.json",
+        "gate=readiness-pass"
+      ],
+      "note": "Bands are provisional before standard-setting."
+    },
+    {
+      "id": 17,
+      "planItem": "Per-skill analytics",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 18,
+      "planItem": "Review filters",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 19,
+      "planItem": "Answer history",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 20,
+      "planItem": "JSON CSV PDF exports",
+      "status": "complete",
+      "evidence": [
+        "export_integrity_report.json",
+        "pdf_report_pipeline_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 21,
+      "planItem": "Candidate evaluator reports",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html",
+        "pdf_report_pipeline_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 22,
+      "planItem": "Named session slots",
+      "status": "complete",
+      "evidence": [
+        "session_management_report.json",
+        "status=session-management-ready"
+      ],
+      "note": ""
+    },
+    {
+      "id": 23,
+      "planItem": "Resets",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 24,
+      "planItem": "Progress map",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 25,
+      "planItem": "Search",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 26,
+      "planItem": "Keyboard shortcuts",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 27,
+      "planItem": "Mobile UX",
+      "status": "complete",
+      "evidence": [
+        "visual_snapshot_report.json",
+        "qa_mobile_initial.png"
+      ],
+      "note": ""
+    },
+    {
+      "id": 28,
+      "planItem": "Reading settings",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 29,
+      "planItem": "Accessibility",
+      "status": "partial",
+      "evidence": [
+        "accessibility_audit.json",
+        "wcag_audit_report.json",
+        "wcag_assistive_tech_protocol.md",
+        "gate=readiness-pass"
+      ],
+      "note": "Formal assistive-technology signoff remains external."
+    },
+    {
+      "id": 30,
+      "planItem": "Light dark system theme",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html",
+        "theme toggle implemented"
+      ],
+      "note": "System preference auto-detection is not present."
+    },
+    {
+      "id": 31,
+      "planItem": "Exam integrity",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html",
+        "proctoring_integrity_policy.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 32,
+      "planItem": "Learning mode",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 33,
+      "planItem": "Blind review",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 34,
+      "planItem": "Confidence marking",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 35,
+      "planItem": "Confidence analytics",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 36,
+      "planItem": "Admin debug",
+      "status": "partial",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 37,
+      "planItem": "QA dashboard",
+      "status": "complete",
+      "evidence": [
+        "qa_dashboard_report.json",
+        "pass=20",
+        "pending=3"
+      ],
+      "note": ""
+    },
+    {
+      "id": 38,
+      "planItem": "Uniqueness",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "bank_quality_review_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 39,
+      "planItem": "Semantic audit",
+      "status": "complete",
+      "evidence": [
+        "construct_coverage_report.json",
+        "deep_content_audit.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 40,
+      "planItem": "Banned phrases",
+      "status": "complete",
+      "evidence": [
+        "banned_phrase_registry.json",
+        "hygiene_audit_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 41,
+      "planItem": "Templates with gates",
+      "status": "complete",
+      "evidence": [
+        "authoring_templates.md",
+        "manual_review_packet.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 42,
+      "planItem": "Regression tests",
+      "status": "complete",
+      "evidence": [
+        "academic_test_quality_audit.json",
+        "qa_dashboard_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 43,
+      "planItem": "Snapshot QA",
+      "status": "complete",
+      "evidence": [
+        "visual_snapshot_report.json",
+        "visual_snapshot_matrix.csv"
+      ],
+      "note": ""
+    },
+    {
+      "id": 44,
+      "planItem": "Content tests",
+      "status": "complete",
+      "evidence": [
+        "deep_content_audit.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 45,
+      "planItem": "Source tests",
+      "status": "complete",
+      "evidence": [
+        "source_url_audit.json",
+        "source_verification_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 46,
+      "planItem": "No secrets emails",
+      "status": "complete",
+      "evidence": [
+        "hygiene_audit_report.json",
+        "gate=pass"
+      ],
+      "note": ""
+    },
+    {
+      "id": 47,
+      "planItem": "Versioning",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "bankVersion=ACC-C1C2-2026.27",
+        "schemaVersion=2.25.0"
+      ],
+      "note": ""
+    },
+    {
+      "id": 48,
+      "planItem": "Changelog",
+      "status": "complete",
+      "evidence": [
+        "CHANGELOG.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 49,
+      "planItem": "Docs",
+      "status": "complete",
+      "evidence": [
+        "assessment_platform_docs.md",
+        "manual_review_packet.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 50,
+      "planItem": "Roadmap",
+      "status": "complete",
+      "evidence": [
+        "next_bank_authoring_plan.md",
+        "next_improvement_plan.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 51,
+      "planItem": "Known limitations",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "production_readiness_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 52,
+      "planItem": "Licensing note",
+      "status": "complete",
+      "evidence": [
+        "source_verification_report.json",
+        "All passages, prompts, options and rationales are original assessment prose; sources are used only as article-level research horizons."
+      ],
+      "note": ""
+    },
+    {
+      "id": 53,
+      "planItem": "Deploy prep Vite React",
+      "status": "partial",
+      "evidence": [
+        "production_deployment_runbook.md",
+        "app.webmanifest",
+        "sw.js"
+      ],
+      "note": "Standalone deployment is prepared; React/Vite app split is not implemented."
+    },
+    {
+      "id": 54,
+      "planItem": "PWA",
+      "status": "complete",
+      "evidence": [
+        "app.webmanifest",
+        "sw.js"
+      ],
+      "note": ""
+    },
+    {
+      "id": 55,
+      "planItem": "Bank import export",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 56,
+      "planItem": "New banks without HTML edits",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html",
+        "academic_test_manifest.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 57,
+      "planItem": "Teacher evaluator mode",
+      "status": "readiness-pass",
+      "evidence": [
+        "secure_delivery_readiness_report.json",
+        "academic_test_platform.html",
+        "gate=prototype-pass"
+      ],
+      "note": "Production hosted auth remains pending."
+    },
+    {
+      "id": 58,
+      "planItem": "Candidate mode",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html"
+      ],
+      "note": ""
+    },
+    {
+      "id": 59,
+      "planItem": "Random options mapping",
+      "status": "complete",
+      "evidence": [
+        "academic_test_platform.html",
+        "export_integrity_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 60,
+      "planItem": "Section random order",
+      "status": "complete",
+      "evidence": [
+        "section_randomization_report.json",
+        "status=section-randomization-ready"
+      ],
+      "note": ""
+    },
+    {
+      "id": 61,
+      "planItem": "Anti-pattern audit",
+      "status": "complete",
+      "evidence": [
+        "banned_phrase_registry.json",
+        "bank_quality_review_report.json"
+      ],
+      "note": ""
+    },
+    {
+      "id": 62,
+      "planItem": "Distractor plausibility",
+      "status": "complete",
+      "evidence": [
+        "distractor_quality_report.json",
+        "ratings=300",
+        "weak=0"
+      ],
+      "note": ""
+    },
+    {
+      "id": 63,
+      "planItem": "Manual checklist",
+      "status": "complete",
+      "evidence": [
+        "manual_review_packet.md",
+        "items=300"
+      ],
+      "note": ""
+    },
+    {
+      "id": 64,
+      "planItem": "Psychometrics after pilot",
+      "status": "pending-external",
+      "evidence": [
+        "psychometric_calibration_report.json",
+        "status=awaiting-pilot-data",
+        "candidates=0"
+      ],
+      "note": "Requires real pilot-response data."
+    },
+    {
+      "id": 65,
+      "planItem": "Retirement rules",
+      "status": "complete",
+      "evidence": [
+        "item_bank.json",
+        "item_lifecycle_policy.md"
+      ],
+      "note": ""
+    },
+    {
+      "id": 66,
+      "planItem": "Production readiness",
+      "status": "partial",
+      "evidence": [
+        "production_readiness_report.json",
+        "level=professional offline beta; not yet production-calibrated"
+      ],
+      "note": "Readiness report says beta, not calibrated production."
+    },
+    {
+      "id": 67,
+      "planItem": "Final full audit",
+      "status": "partial",
+      "evidence": [
+        "qa_dashboard_report.json",
+        "deep_content_audit.json",
+        "goal_completion_audit.json"
+      ],
+      "note": "Automated audit is complete; external gates remain."
+    }
+  ]
+}

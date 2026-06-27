@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "total": 300,
+    "A": 100,
+    "B": 100,
+    "C": 100
+  },
+  "minWords": 150,
+  "maxWords": 174,
+  "duplicatePassages": 0,
+  "duplicateOptionSets": 0,
+  "repeatedOpenings": 11,
+  "articleLevelUrls": 300,
+  "bannedHits": [],
+  "errors": []
+}

@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.973Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "session-management-ready",
+  "runtimeState": [
+    "acc_active_slot",
+    "acc_slot_labels",
+    "acc_slot_<slot>",
+    "acc_slot_draft"
+  ],
+  "defaultSlots": [
+    "default",
+    "mock-a",
+    "mock-b"
+  ],
+  "supportedActions": [
+    "save active slot",
+    "load active slot",
+    "create named slot",
+    "persist slot label",
+    "include slot label in JSON session snapshot"
+  ],
+  "checks": [
+    {
+      "name": "default-slots",
+      "status": "pass"
+    },
+    {
+      "name": "named-slot-labels",
+      "status": "pass"
+    },
+    {
+      "name": "named-slot-save",
+      "status": "pass"
+    },
+    {
+      "name": "slot-snapshot-label",
+      "status": "pass"
+    },
+    {
+      "name": "slot-browser-qa",
+      "status": "pass"
+    }
+  ],
+  "failures": []
+}

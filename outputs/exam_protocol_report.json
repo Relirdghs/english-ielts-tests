@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.965Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "exam-protocol-ready",
+  "totalItems": 300,
+  "totalWorkingMinutes": 270,
+  "totalBreakMinutes": 20,
+  "requiredRuntimeState": [
+    "acc_exam_breaks",
+    "session.examProtocol"
+  ],
+  "sections": [
+    {
+      "key": "A",
+      "label": "Reading Synthesis",
+      "start": 1,
+      "end": 100,
+      "minutes": 90,
+      "breakAfterMinutes": 10,
+      "itemCount": 100,
+      "firstItem": "ACC_001",
+      "lastItem": "ACC_100",
+      "complete": true
+    },
+    {
+      "key": "B",
+      "label": "Use of Academic English",
+      "start": 101,
+      "end": 200,
+      "minutes": 90,
+      "breakAfterMinutes": 10,
+      "itemCount": 100,
+      "firstItem": "ACC_101",
+      "lastItem": "ACC_200",
+      "complete": true
+    },
+    {
+      "key": "C",
+      "label": "Data Interpretation",
+      "start": 201,
+      "end": 300,
+      "minutes": 90,
+      "breakAfterMinutes": 0,
+      "itemCount": 100,
+      "firstItem": "ACC_201",
+      "lastItem": "ACC_300",
+      "complete": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "three-section-blueprint",
+      "status": "pass"
+    },
+    {
+      "name": "section-item-counts",
+      "status": "pass"
+    },
+    {
+      "name": "timed-sections",
+      "status": "pass"
+    },
+    {
+      "name": "breaks-after-a-b",
+      "status": "pass"
+    },
+    {
+      "name": "final-protocol",
+      "status": "pass"
+    }
+  ],
+  "failures": []
+}

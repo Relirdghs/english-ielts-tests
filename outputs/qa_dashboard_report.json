@@ -1,0 +1,477 @@
+{
+  "generatedAt": "2026-06-27T06:41:27.241Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "readinessLevel": "professional offline beta; not yet production-calibrated",
+  "gates": [
+    {
+      "gate": "content",
+      "status": "pass",
+      "evidence": {
+        "total": 300,
+        "duplicatePassages": 0,
+        "duplicateOptions": 0,
+        "failures": 0
+      }
+    },
+    {
+      "gate": "source",
+      "status": "pass",
+      "evidence": {
+        "accepted": 30,
+        "uniqueSourceUrls": 30,
+        "failures": 0
+      }
+    },
+    {
+      "gate": "accessibility",
+      "status": "pass",
+      "evidence": {
+        "failures": 0,
+        "checks": 19,
+        "wcagStatus": "automated-readiness-pass-human-at-pending",
+        "skipLink": true,
+        "liveRegion": true,
+        "humanAssistiveTechnologyAuditRequired": true
+      }
+    },
+    {
+      "gate": "wcag-readiness",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "automated-readiness-pass-human-at-pending",
+        "skipLink": true,
+        "landmarks": {
+          "banner": true,
+          "main": true,
+          "controls": true,
+          "analytics": true
+        },
+        "progressNav": true,
+        "activeProgressCurrent": 1,
+        "liveRegion": true,
+        "focusVisible": true,
+        "manualProtocol": "wcag_assistive_tech_protocol.md",
+        "limitation": "automated readiness is not formal WCAG conformance until human assistive-technology signoff is complete"
+      }
+    },
+    {
+      "gate": "collapsible-analytics",
+      "status": "readiness-pass",
+      "evidence": {
+        "ariaCheck": {
+          "name": "collapsible-analytics-aria",
+          "status": "pass",
+          "detail": "{\"toggles\":8,\"controlledPanels\":8}"
+        },
+        "mobileOverflow": true,
+        "persistedState": "acc_analytics_open",
+        "limitation": "collapsible analytics are validated in browser QA; human review should still assess whether default sections fit real workflows"
+      }
+    },
+    {
+      "gate": "bank-blueprint",
+      "status": "readiness-pass",
+      "evidence": {
+        "constructCoverageStatus": "coverage-pass",
+        "constructCells": 36,
+        "coveredCells": 36,
+        "reviewNeededCells": 0,
+        "distractorItemCoverage": 300,
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "taxonomySize": 9,
+        "limitation": "automated blueprint and distractor evidence guides review; it does not replace expert construct validation"
+      }
+    },
+    {
+      "gate": "hygiene",
+      "status": "pass",
+      "evidence": {
+        "status": "pass",
+        "scannedFiles": 98,
+        "findings": 0,
+        "checks": {
+          "noUnexpectedEmails": true,
+          "noTokenLiterals": true,
+          "noRemoteScriptDependencies": true,
+          "noUnexpectedPlainHttp": true,
+          "noDefaultSecureDeliveryData": true
+        },
+        "allowedIdentityPolicy": {
+          "githubAuthorEmail": "zakirhautov@gmail.com",
+          "vercelAccountEmail": "bazarbajzanadilov@gmail.com",
+          "note": "Allowed identities are policy exceptions; output artifacts should not need to contain them."
+        },
+        "limitation": "binary PDFs and screenshots are excluded from text scanning; PDF content is covered by the PDF redaction gate"
+      }
+    },
+    {
+      "gate": "bank-governance",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "governance-ready-human-gates-pending",
+        "itemCount": 300,
+        "idsUnique": true,
+        "idsConform": true,
+        "currentRange": "ACC_001-ACC_300",
+        "nextNamespace": "ACC_301-ACC_600",
+        "releaseDecision": "controlled-beta-only",
+        "productionBlockers": [
+          {
+            "gate": "expert-adjudication",
+            "status": "pending",
+            "evidence": "expert_adjudication_report.json",
+            "requiredForProduction": true
+          },
+          {
+            "gate": "pilot-psychometrics",
+            "status": "pending",
+            "evidence": "psychometric_calibration_report.json",
+            "requiredForProduction": true
+          },
+          {
+            "gate": "standard-setting",
+            "status": "pending",
+            "evidence": "score_interpretation_report.json, standard_setting_protocol.md",
+            "requiredForProduction": true
+          },
+          {
+            "gate": "source-url-audit",
+            "status": "complete",
+            "evidence": "source_url_audit.json",
+            "requiredForProduction": true
+          },
+          {
+            "gate": "bank-blueprint",
+            "status": "complete",
+            "evidence": "construct_coverage_report.json, distractor_quality_report.json",
+            "requiredForProduction": true
+          },
+          {
+            "gate": "hygiene",
+            "status": "complete",
+            "evidence": "hygiene_audit_report.json",
+            "requiredForProduction": true
+          }
+        ],
+        "findings": 0,
+        "limitation": "governance is ready for controlled beta; production release still depends on expert and pilot gates"
+      }
+    },
+    {
+      "gate": "score-interpretation",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "provisional-score-interpretation-ready",
+        "calibrationStatus": "awaiting-pilot-data",
+        "bandCount": 4,
+        "productionReady": false,
+        "productionBlockers": [
+          "pilot calibration missing",
+          "governance release is not production-eligible",
+          "standard-setting panel signoff missing"
+        ],
+        "standardSettingMethod": "Modified Angoff plus bookmark review after pilot response data",
+        "limitation": "score bands are provisional diagnostic bands until pilot calibration and standard-setting signoff are complete"
+      }
+    },
+    {
+      "gate": "cefr-interpretation",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "cefr-interpretation-ready",
+        "bands": 4,
+        "calibrationStatus": "awaiting-pilot-data",
+        "runtimeEvidence": [
+          "cefrBandFor",
+          "cefrProfileExplanation",
+          "profile.profileExplanation",
+          "CEFR rationale in candidate/evaluator reports"
+        ],
+        "productionReady": false,
+        "checks": 5,
+        "failures": 0,
+        "limitation": "CEFR profile explanation is runtime-ready but remains provisional until calibration and standard-setting signoff"
+      }
+    },
+    {
+      "gate": "adaptive-readiness",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "heuristic-adaptive-ready-calibrated-cat-pending",
+        "currentRuntimeMode": "heuristic adaptive drill",
+        "productionCatMode": "pending calibrated IRT/CAT",
+        "heuristicAdaptiveReady": true,
+        "calibratedCatReady": false,
+        "minimumSkillPool": 33,
+        "minimumDifficultyPool": 75,
+        "productionBlockers": [
+          "IRT/CAT calibration missing",
+          "representative pilot candidate sample missing",
+          "adaptive pool simulation with calibrated item parameters missing",
+          "human review of adaptive construct coverage missing"
+        ],
+        "limitation": "current adaptive mode is heuristic diagnostic routing; calibrated IRT/CAT remains pending pilot data and simulations"
+      }
+    },
+    {
+      "gate": "data-visualization",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "data-visualization-ready",
+        "categoryCItems": 100,
+        "tables": 100,
+        "miniGraphs": 100,
+        "ariaLabels": 100,
+        "requiredEncodings": [
+          "adjusted estimate",
+          "uncertainty interval",
+          "sensitivity model",
+          "missingness"
+        ],
+        "limitation": "mini-graphs improve evidence reading; table fallback remains required for accessibility and export review"
+      }
+    },
+    {
+      "gate": "exam-protocol",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "exam-protocol-ready",
+        "totalItems": 300,
+        "sections": 3,
+        "totalWorkingMinutes": 270,
+        "totalBreakMinutes": 20,
+        "runtimeState": [
+          "acc_exam_breaks",
+          "session.examProtocol"
+        ],
+        "checks": 5,
+        "failures": 0,
+        "limitation": "full-exam protocol is structured for offline delivery; production scheduling still needs hosted attempt control and invigilation rules"
+      }
+    },
+    {
+      "gate": "section-randomization",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "section-randomization-ready",
+        "sections": 3,
+        "seedPolicy": "deterministic per attempt through acc_random_seed",
+        "preservationRule": "Randomized full-exam order must keep A positions 1-100, B positions 101-200 and C positions 201-300.",
+        "runtimeState": [
+          "acc_random_questions",
+          "acc_random_seed",
+          "session.questionOrder"
+        ],
+        "checks": 5,
+        "failures": 0,
+        "limitation": "section-preserving randomization supports offline attempts; production still needs server-issued attempt seeds"
+      }
+    },
+    {
+      "gate": "session-management",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "session-management-ready",
+        "defaultSlots": [
+          "default",
+          "mock-a",
+          "mock-b"
+        ],
+        "runtimeState": [
+          "acc_active_slot",
+          "acc_slot_labels",
+          "acc_slot_<slot>",
+          "acc_slot_draft"
+        ],
+        "supportedActions": [
+          "save active slot",
+          "load active slot",
+          "create named slot",
+          "persist slot label",
+          "include slot label in JSON session snapshot"
+        ],
+        "checks": 5,
+        "failures": 0,
+        "limitation": "local named slots support offline attempts; production still needs server-side attempt ownership and retention"
+      }
+    },
+    {
+      "gate": "visual-snapshot",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "visual-snapshot-pass",
+        "scenes": 4,
+        "files": [
+          "snapshot_desktop_learning.png",
+          "snapshot_category_c_visual.png",
+          "snapshot_admin_review.png",
+          "snapshot_mobile_initial.png"
+        ],
+        "failures": 0,
+        "minimumColorBins": 40,
+        "minimumBrightnessVariance": 2104.34,
+        "limitation": "snapshot QA catches visible layout regressions; it does not replace human visual review"
+      }
+    },
+    {
+      "gate": "export-integrity",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "export-integrity-pass",
+        "checks": 8,
+        "failures": 0,
+        "candidateReportRedacted": true,
+        "evaluatorReportIncludesKeys": true,
+        "coveredSurfaces": [
+          "json-export",
+          "json-exam-protocol",
+          "json-cefr-explanation",
+          "json-question-order",
+          "csv-export",
+          "candidate-report-boundary",
+          "evaluator-report-boundary",
+          "pdf-print-surface"
+        ],
+        "limitation": "runtime exports are checked for structure and leakage; production still needs signed delivery and retention controls"
+      }
+    },
+    {
+      "gate": "operations-readiness",
+      "status": "readiness-pass",
+      "evidence": {
+        "status": "operations-ready-controlled-beta",
+        "controlledBetaReady": true,
+        "productionReady": false,
+        "controlCount": 8,
+        "productionBlockers": [
+          "hosted authentication and authorization",
+          "managed durable storage with backups and retention",
+          "centralized logs and monitoring",
+          "signed report delivery",
+          "formal WCAG assistive-technology signoff",
+          "expert adjudication",
+          "pilot psychometric calibration",
+          "standard-setting signoff",
+          "production proctoring policy and appeal workflow"
+        ],
+        "runbooks": [
+          "production_deployment_runbook.md",
+          "data_retention_policy.md",
+          "proctoring_integrity_policy.md",
+          "incident_response_runbook.md"
+        ],
+        "limitation": "operations package supports controlled beta; production hosting still needs managed infrastructure and support ownership"
+      }
+    },
+    {
+      "gate": "psychometrics",
+      "status": "pending-pilot-data",
+      "evidence": {
+        "calibrationStatus": "awaiting-pilot-data",
+        "candidateCount": 0,
+        "validResponseRows": 0,
+        "recommendations": {
+          "awaiting-pilot-data": 300
+        }
+      }
+    },
+    {
+      "gate": "expert-review-workflow",
+      "status": "pending-human-adjudication",
+      "evidence": {
+        "itemCount": 300,
+        "semanticPairs": 0,
+        "antiPatternSummary": {
+          "p1": 0,
+          "p2": 0,
+          "p3": 300,
+          "itemsWithBannedHits": 0,
+          "itemsWithOptionRisk": 0,
+          "itemsWithWeakDistractors": 0
+        },
+        "adjudicationStatus": "awaiting-human-adjudication",
+        "reviewerCount": 0,
+        "validReviewRows": 0,
+        "itemCoverage": 0,
+        "doubleReviewedItemCount": 0,
+        "unresolvedItemCount": 0,
+        "limitation": "automated triage exists; independent expert adjudication remains pending until the adjudication report is gate-ready"
+      }
+    },
+    {
+      "gate": "secure-delivery",
+      "status": "prototype-pass",
+      "evidence": {
+        "status": "prototype-pass",
+        "hiddenKeyBoundary": "candidate endpoints require per-attempt bearer tokens and omit correct answers and rationales; admin endpoints and evaluator reports require runtime-only authorization token",
+        "candidatePayloadRedacted": true,
+        "candidateTokenRequired": true,
+        "adminBlockedWithoutToken": true,
+        "adminTokenBoundary": true,
+        "durableStorage": {
+          "storageMode": "file-backed-json",
+          "persistedAttempts": 1,
+          "reloadedAttempts": 1,
+          "candidateSummaryRedacted": true,
+          "candidateTokenStoredHashOnly": true
+        },
+        "auditLog": {
+          "rows": 11,
+          "requiredActionsPresent": true
+        },
+        "candidateReportRedacted": true,
+        "evaluatorReportBoundary": true,
+        "serverScoring": {
+          "itemId": "ACC_001",
+          "score": 1
+        },
+        "limitation": "prototype boundary is validated; production still needs hosted auth, managed storage, TLS, rate limits, centralized logs and proctoring policy"
+      }
+    },
+    {
+      "gate": "pdf-reporting",
+      "status": "prototype-pass",
+      "evidence": {
+        "status": "prototype-pass",
+        "pipeline": "reportlab-pypdf-poppler",
+        "candidateRedacted": true,
+        "evaluatorHasKeyAndRationale": true,
+        "candidatePages": 1,
+        "evaluatorPages": 1,
+        "renderedPreviewPages": 2,
+        "outputs": {
+          "candidatePdf": "pdf/academic-assessment-candidate-report.pdf",
+          "evaluatorPdf": "pdf/academic-assessment-evaluator-report.pdf",
+          "candidatePreview": "pdf/academic-assessment-candidate-report-preview.png",
+          "evaluatorPreview": "pdf/academic-assessment-evaluator-report-preview.png"
+        },
+        "limitation": "prototype renders deterministic sample PDFs; production still needs signed delivery, managed workers, retention controls and delivery logging"
+      }
+    },
+    {
+      "gate": "production-readiness",
+      "status": "beta",
+      "evidence": {
+        "readinessLevel": "professional offline beta; not yet production-calibrated",
+        "pending": [
+          "completed independent expert adjudication of all 300 items",
+          "real pilot-response psychometric calibration data collection",
+          "formal standard-setting panel signoff for score bands and cut scores",
+          "true IRT/adaptive calibration from representative candidate data",
+          "production secure teacher/candidate deployment with hosted authentication, managed durable storage and operations controls",
+          "formal WCAG audit with real assistive-technology signoff",
+          "production PDF rendering service with signed delivery, managed rendering workers and retention controls",
+          "production hosting, authentication and proctoring controls"
+        ]
+      }
+    }
+  ],
+  "rollup": {
+    "pass": 20,
+    "pending": 3,
+    "fail": 0
+  },
+  "decision": "professional-beta-not-production-calibrated"
+}

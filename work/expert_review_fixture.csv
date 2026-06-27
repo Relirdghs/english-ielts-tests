@@ -1,0 +1,4 @@
+"reviewer_id","item_id","decision","construct_alignment","key_defensibility","distractor_plausibility","language_quality","source_scope","severity","notes","reviewed_at"
+"rev_alpha","ACC_001","approve","pass","pass","pass","pass","pass","","key defensible","2026-06-26"
+"rev_beta","ACC_001","approve","pass","pass","pass","pass","pass","","independent agreement","2026-06-26"
+"rev_alpha","ACC_002","revise","concern","pass","concern","pass","pass","medium","tighten one distractor","2026-06-26"

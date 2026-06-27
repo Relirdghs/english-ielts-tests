@@ -1,0 +1,5 @@
+"profile","min_weighted_percent","max_weighted_percent","claim","recommended_action"
+"C1 Developing","0","0.599","Candidate shows partial control of academic reading and usage tasks but should receive targeted review before high-stakes C1 claims.","Use skill analytics and review mode before retesting."
+"C1 Secure","0.6","0.759","Candidate appears secure on many C1 academic tasks in this bank, subject to item review and pilot calibration limits.","Check weakest modules and confidence calibration."
+"C2 Emerging","0.76","0.879","Candidate shows emerging C2-level performance across complex academic tasks, but production claims require calibrated cut scores.","Confirm performance across methodology and data interpretation items."
+"C2 Secure","0.88","1","Candidate performs strongly on the current high-level academic assessment bank; do not treat this as certified C2 without external validation.","Use evaluator review for high-stakes decisions."

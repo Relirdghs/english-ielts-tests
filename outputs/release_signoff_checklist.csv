@@ -1,0 +1,7 @@
+"gate","owner_role","status","evidence_artifact","required_for_production"
+"expert-adjudication","expert-reviewer","pending","expert_adjudication_report.json","yes"
+"pilot-psychometrics","psychometrician","pending","psychometric_calibration_report.json","yes"
+"standard-setting","assessment-lead","pending","score_interpretation_report.json, standard_setting_protocol.md","yes"
+"source-url-audit","release-manager","complete","source_url_audit.json","yes"
+"bank-blueprint","release-manager","complete","construct_coverage_report.json, distractor_quality_report.json","yes"
+"hygiene","release-manager","complete","hygiene_audit_report.json","yes"

@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-06-27T06:41:27.388Z",
+  "status": "pass",
+  "scannedFiles": 101,
+  "ignored": {
+    "directories": [
+      "__pycache__",
+      "node_modules",
+      "secure_delivery_data"
+    ],
+    "binaryExtensions": [
+      ".gif",
+      ".ico",
+      ".jpeg",
+      ".jpg",
+      ".pdf",
+      ".png",
+      ".ttf",
+      ".woff",
+      ".woff2"
+    ]
+  },
+  "allowedIdentityPolicy": {
+    "githubAuthorEmail": "zakirhautov@gmail.com",
+    "vercelAccountEmail": "bazarbajzanadilov@gmail.com",
+    "note": "Allowed identities are policy exceptions; output artifacts should not need to contain them."
+  },
+  "checks": {
+    "noUnexpectedEmails": true,
+    "noTokenLiterals": true,
+    "noRemoteScriptDependencies": true,
+    "noUnexpectedPlainHttp": true,
+    "noDefaultSecureDeliveryData": true
+  },
+  "findings": []
+}

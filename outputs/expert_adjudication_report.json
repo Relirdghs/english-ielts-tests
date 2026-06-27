@@ -1,0 +1,4533 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.722Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "sourceName": "no-input-file",
+  "status": "awaiting-human-adjudication",
+  "itemCount": 300,
+  "reviewerCount": 0,
+  "validReviewRows": 0,
+  "rejectedRows": [],
+  "itemCoverage": 0,
+  "doubleReviewedItemCount": 0,
+  "unresolvedItemCount": 0,
+  "decisions": {
+    "approve": 0,
+    "revise": 0,
+    "retire": 0,
+    "second-review": 0
+  },
+  "completionGate": {
+    "minimumIndependentReviewsPerItem": 2,
+    "requiresAllItemsCovered": true,
+    "requiresZeroUnresolvedItems": true,
+    "gateReady": false
+  },
+  "limitations": [
+    "The report validates reviewer rows; it does not itself supply human expertise.",
+    "A completed gate requires two independent rows for every item and no unresolved revise/retire/second-review decisions.",
+    "Reviewer IDs should remain pseudonymous and must not contain personal contact data."
+  ],
+  "items": [
+    {
+      "itemId": "ACC_001",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_002",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_003",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_004",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_005",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_006",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_007",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_008",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_009",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_010",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_011",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_012",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_013",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_014",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_015",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_016",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_017",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_018",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_019",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_020",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_021",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_022",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_023",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_024",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_025",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_026",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_027",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_028",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_029",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_030",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_031",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_032",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_033",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_034",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_035",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_036",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_037",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_038",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_039",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_040",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_041",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_042",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_043",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_044",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_045",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_046",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_047",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_048",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_049",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_050",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_051",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_052",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_053",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_054",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_055",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_056",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_057",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_058",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_059",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_060",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_061",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_062",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_063",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_064",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_065",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_066",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_067",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_068",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_069",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_070",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_071",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_072",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_073",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_074",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_075",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_076",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_077",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_078",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_079",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_080",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_081",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_082",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_083",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_084",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_085",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_086",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_087",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_088",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_089",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_090",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_091",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_092",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_093",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_094",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_095",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_096",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_097",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_098",
+      "category": "A",
+      "skillModule": "Evidence Evaluation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_099",
+      "category": "A",
+      "skillModule": "Rhetorical Inference",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_100",
+      "category": "A",
+      "skillModule": "Reading Synthesis",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_101",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_102",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_103",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_104",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_105",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_106",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_107",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_108",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_109",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_110",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_111",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_112",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_113",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_114",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_115",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_116",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_117",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_118",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_119",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_120",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_121",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_122",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_123",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_124",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_125",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_126",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_127",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_128",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_129",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_130",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_131",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_132",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_133",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_134",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_135",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_136",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_137",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_138",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_139",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_140",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_141",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_142",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_143",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_144",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_145",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_146",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_147",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_148",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_149",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_150",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_151",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_152",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_153",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_154",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_155",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_156",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_157",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_158",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_159",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_160",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_161",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_162",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_163",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_164",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_165",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_166",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_167",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_168",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_169",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_170",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_171",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_172",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_173",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_174",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_175",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_176",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_177",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_178",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_179",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_180",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_181",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_182",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_183",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_184",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_185",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_186",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_187",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_188",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_189",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_190",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_191",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_192",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_193",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_194",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_195",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_196",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_197",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_198",
+      "category": "B",
+      "skillModule": "Abstract Revision",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_199",
+      "category": "B",
+      "skillModule": "Lexico-Syntactic Control",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_200",
+      "category": "B",
+      "skillModule": "Use of Academic English",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_201",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_202",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_203",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_204",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_205",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_206",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_207",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_208",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_209",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_210",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_211",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_212",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_213",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_214",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_215",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_216",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_217",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_218",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_219",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_220",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_221",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_222",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_223",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_224",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_225",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_226",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_227",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_228",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_229",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_230",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_231",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_232",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_233",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_234",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_235",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_236",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_237",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_238",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_239",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_240",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_241",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_242",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_243",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_244",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_245",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_246",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_247",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_248",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_249",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_250",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_251",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_252",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_253",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_254",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_255",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_256",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_257",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_258",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_259",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_260",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_261",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_262",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_263",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_264",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_265",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_266",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_267",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_268",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_269",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_270",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_271",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_272",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_273",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_274",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_275",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_276",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_277",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_278",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_279",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_280",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_281",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_282",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_283",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_284",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_285",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_286",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_287",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_288",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_289",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_290",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_291",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_292",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_293",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_294",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_295",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_296",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_297",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_298",
+      "category": "C",
+      "skillModule": "Methodological Reasoning",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_299",
+      "category": "C",
+      "skillModule": "Evidence-to-Claim Mapping",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    },
+    {
+      "itemId": "ACC_300",
+      "category": "C",
+      "skillModule": "Data Interpretation",
+      "reviewerCount": 0,
+      "rowCount": 0,
+      "decisions": {
+        "approve": 0,
+        "revise": 0,
+        "retire": 0,
+        "second-review": 0
+      },
+      "unresolved": false,
+      "status": "unreviewed"
+    }
+  ]
+}

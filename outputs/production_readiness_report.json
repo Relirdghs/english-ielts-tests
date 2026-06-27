@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-06-27T10:06:19.863Z",
+  "readinessLevel": "professional offline beta; not yet production-calibrated",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "evidence": {
+    "itemCount": 300,
+    "categoryCounts": {
+      "total": 300,
+      "A": 100,
+      "B": 100,
+      "C": 100
+    },
+    "duplicatePassages": 0,
+    "duplicateOptionSets": 0,
+    "articleLevelUrls": 300,
+    "minWords": 150,
+    "maxWords": 174,
+    "itemsWithDataTables": 100,
+    "itemsWithManualChecklist": 300,
+    "itemsWithPlausibilityRatings": 300,
+    "importableBankRuntime": true,
+    "sessionProtocolRuntime": true,
+    "candidateEvaluatorReports": true,
+    "collapsibleAnalyticsRuntime": true,
+    "exportIntegrityArtifacts": [
+      "export_integrity_report.json",
+      "export_integrity_matrix.csv"
+    ],
+    "pwaArtifactsPlanned": [
+      "app.webmanifest",
+      "sw.js"
+    ],
+    "accessibilityArtifacts": [
+      "accessibility_audit.json",
+      "wcag_audit_report.json",
+      "wcag_conformance_matrix.json",
+      "wcag_assistive_tech_protocol.md",
+      "accessibility_statement.md"
+    ],
+    "psychometricPipelineArtifacts": [
+      "pilot_response_template.csv",
+      "psychometric_calibration_report.json",
+      "psychometric_item_summary.csv",
+      "qa_dashboard_report.json"
+    ],
+    "scoreInterpretationArtifacts": [
+      "score_interpretation_report.json",
+      "standard_setting_protocol.md",
+      "score_claim_register.md",
+      "cut_score_policy.csv"
+    ],
+    "cefrInterpretationArtifacts": [
+      "cefr_interpretation_report.json",
+      "cefr_interpretation_matrix.csv"
+    ],
+    "adaptiveArtifacts": [
+      "adaptive_readiness_report.json",
+      "adaptive_algorithm_spec.md",
+      "item_exposure_policy.md",
+      "adaptive_simulation_matrix.csv"
+    ],
+    "dataVisualizationArtifacts": [
+      "data_visualization_readiness_report.json",
+      "category_c_visualization_matrix.csv"
+    ],
+    "examProtocolArtifacts": [
+      "exam_protocol_report.json",
+      "exam_protocol_matrix.csv"
+    ],
+    "sectionRandomizationArtifacts": [
+      "section_randomization_report.json",
+      "section_randomization_matrix.csv"
+    ],
+    "sessionManagementArtifacts": [
+      "session_management_report.json",
+      "session_management_matrix.csv"
+    ],
+    "snapshotQaArtifacts": [
+      "visual_snapshot_report.json",
+      "visual_snapshot_matrix.csv",
+      "snapshot_desktop_learning.png",
+      "snapshot_category_c_visual.png",
+      "snapshot_admin_review.png",
+      "snapshot_mobile_initial.png"
+    ],
+    "reviewWorkflowArtifacts": [
+      "bank_quality_review_report.json",
+      "construct_coverage_report.json",
+      "distractor_quality_report.json",
+      "blueprint_matrix.csv",
+      "manual_review_packet.md",
+      "review_queue.csv",
+      "expert_review_template.csv",
+      "expert_review_protocol.md",
+      "expert_adjudication_report.json",
+      "banned_phrase_registry.json",
+      "authoring_templates.md"
+    ],
+    "hygieneArtifacts": [
+      "hygiene_audit_report.json"
+    ],
+    "governanceArtifacts": [
+      "bank_governance_report.json",
+      "item_lifecycle_policy.md",
+      "next_bank_authoring_plan.md",
+      "release_signoff_checklist.csv"
+    ],
+    "operationsArtifacts": [
+      "operations_readiness_report.json",
+      "production_deployment_runbook.md",
+      "data_retention_policy.md",
+      "proctoring_integrity_policy.md",
+      "incident_response_runbook.md"
+    ],
+    "secureDeliveryPrototype": true,
+    "secureDeliveryArtifacts": [
+      "secure_delivery_api_spec.json",
+      "secure_delivery_blueprint.md",
+      "secure_delivery_readiness_report.json"
+    ],
+    "pdfReportArtifacts": [
+      "pdf_report_pipeline_report.json",
+      "pdf/academic-assessment-candidate-report.pdf",
+      "pdf/academic-assessment-evaluator-report.pdf"
+    ]
+  },
+  "implemented": [
+    "canonical item_bank.json",
+    "metadata for difficulty, module, trap, time, domain and weight",
+    "source URL audit",
+    "linguistic/content lint",
+    "HTML regression QA",
+    "JSON/CSV/exportable report surface",
+    "candidate and evaluator report exports",
+    "runtime export integrity QA for JSON, CSV, candidate report, evaluator report and print surface",
+    "per-item timing and answer history protocol",
+    "confidence-adjusted scoring",
+    "confidence analytics",
+    "provisional score interpretation, cut-score policy and standard-setting protocol artifacts",
+    "adaptive readiness, heuristic routing, CAT upgrade and item exposure artifacts",
+    "save slots",
+    "review filters",
+    "collapsible analytics panels for mobile and repeated review workflows",
+    "data tables for Category C",
+    "accessible mini-graph data visualizations for Category C",
+    "manual review checklist metadata",
+    "distractor plausibility metadata",
+    "item retirement rules",
+    "runtime item-bank import/export",
+    "PWA manifest and service worker artifacts",
+    "automated accessibility audit gate",
+    "WCAG readiness packet with skip link, landmarks, live status region, conformance matrix and assistive-technology audit protocol",
+    "pilot-response psychometric calibration tooling",
+    "QA dashboard report",
+    "manual expert review packet and review queue",
+    "expert adjudication CSV template, protocol and validator report",
+    "semantic similarity and obvious-answer anti-pattern audit",
+    "construct coverage, blueprint matrix and distractor quality audit artifacts",
+    "no-secrets/no-email/no-CDN hygiene audit artifact",
+    "bank governance, item lifecycle, next-bank authoring and release signoff artifacts",
+    "operations readiness, deployment, retention, proctoring and incident runbook artifacts",
+    "banned phrase registry and human-gated authoring templates",
+    "server-backed secure delivery prototype with candidate payload redaction, per-attempt candidate authorization, hash-only token storage, local durable attempt storage, audit logging, report endpoints, server-side scoring and runtime admin authorization QA",
+    "secure PDF report rendering prototype with candidate/evaluator separation and rendered preview QA",
+    "visual snapshot QA across desktop, mobile, admin and Category C visualization states",
+    "full-exam protocol with three timed sections, two break checkpoints, final readiness state and export evidence",
+    "named local session slots with persisted labels and session snapshot evidence",
+    "runtime CEFR profile explanation with provisional band rationale, weakest-module evidence and report-ready interpretation limits",
+    "section-preserving question randomization with deterministic attempt seeds and JSON session order evidence"
+  ],
+  "pending": [
+    "completed independent expert adjudication of all 300 items",
+    "real pilot-response psychometric calibration data collection",
+    "formal standard-setting panel signoff for score bands and cut scores",
+    "true IRT/adaptive calibration from representative candidate data",
+    "production secure teacher/candidate deployment with hosted authentication, managed durable storage and operations controls",
+    "formal WCAG audit with real assistive-technology signoff",
+    "production PDF rendering service with signed delivery, managed rendering workers and retention controls",
+    "production hosting, authentication and proctoring controls"
+  ],
+  "releaseGate": "Do not label as fully production-ready until expert review and pilot psychometrics are complete."
+}

@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-06-26T21:17:20.350Z",
+  "status": "prototype-pass",
+  "serverSurface": "dependency-free Node.js HTTP prototype with local durable attempt storage",
+  "hiddenKeyBoundary": "candidate endpoints require per-attempt bearer tokens and omit correct answers and rationales; admin endpoints and evaluator reports require runtime-only authorization token",
+  "limitations": [
+    "Prototype stores candidate access token hashes, not raw candidate tokens.",
+    "Prototype uses local JSON/JSONL storage; production still requires a managed database, backups and retention policy.",
+    "Production still requires hosted authentication, rate limits, TLS, operational monitoring and proctoring policy.",
+    "The QA token is runtime-only in this test process and is not written to outputs."
+  ],
+  "evidence": {
+    "health": {
+      "ok": true,
+      "bankVersion": "ACC-C1C2-2026.27",
+      "itemCount": 300,
+      "storageMode": "file-backed-json",
+      "attemptCount": 0
+    },
+    "candidatePayloadRedacted": true,
+    "candidateTokenRequired": true,
+    "adminBlockedWithoutToken": true,
+    "adminTokenBoundary": true,
+    "serverScoring": {
+      "itemId": "ACC_001",
+      "score": 1
+    },
+    "finalize": {
+      "attemptId": "61e39413-a42f-42ac-999b-39147387976c",
+      "candidateId": "qa_candidate",
+      "bankVersion": "ACC-C1C2-2026.27",
+      "submitted": 1,
+      "itemCount": 3,
+      "weightedScore": 1,
+      "weightedPossible": 3.3,
+      "weightedPercent": 0.303,
+      "finalizedAt": "2026-06-26T21:17:20.331Z"
+    },
+    "durableStorage": {
+      "storageMode": "file-backed-json",
+      "persistedAttempts": 1,
+      "reloadedAttempts": 1,
+      "candidateSummaryRedacted": true,
+      "candidateTokenStoredHashOnly": true
+    },
+    "candidateReportRedacted": true,
+    "evaluatorReportBoundary": true,
+    "adminAttemptRegistry": true,
+    "auditLog": {
+      "rows": 11,
+      "requiredActionsPresent": true
+    }
+  }
+}

@@ -1,0 +1,1300 @@
+{
+  "generatedAt": "2026-06-26T21:16:31.030Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "coverage-pass",
+  "constructMap": [
+    {
+      "skillModule": "Abstract Revision",
+      "assessmentConstruct": "retain findings while repairing overclaiming draft language",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Data Interpretation",
+      "assessmentConstruct": "translate quantitative patterns into cautious methodological interpretation",
+      "itemCount": 34
+    },
+    {
+      "skillModule": "Evidence Evaluation",
+      "assessmentConstruct": "evaluate warrants, caveats and source-scope discipline",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Evidence-to-Claim Mapping",
+      "assessmentConstruct": "match empirical evidence to defensible academic claims",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Lexico-Syntactic Control",
+      "assessmentConstruct": "control academic wording, clause relations and certainty markers",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Methodological Reasoning",
+      "assessmentConstruct": "distinguish design limits from claim strength",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Reading Synthesis",
+      "assessmentConstruct": "integrate passage claims while respecting scope and evidence strength",
+      "itemCount": 34
+    },
+    {
+      "skillModule": "Rhetorical Inference",
+      "assessmentConstruct": "infer the function of concessions, caveats and argumentative structure",
+      "itemCount": 33
+    },
+    {
+      "skillModule": "Use of Academic English",
+      "assessmentConstruct": "revise academic prose for modality, syntax and register",
+      "itemCount": 34
+    }
+  ],
+  "coverage": {
+    "cellCount": 36,
+    "coveredCells": 36,
+    "reviewNeededCells": 0,
+    "matrix": [
+      {
+        "category": "A",
+        "skillModule": "Evidence Evaluation",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_008",
+          "ACC_020",
+          "ACC_032",
+          "ACC_044",
+          "ACC_056",
+          "ACC_068",
+          "ACC_080",
+          "ACC_092"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Evidence Evaluation",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_005",
+          "ACC_017",
+          "ACC_029",
+          "ACC_041",
+          "ACC_053",
+          "ACC_065",
+          "ACC_077",
+          "ACC_089"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Evidence Evaluation",
+        "difficultyTier": "C2-secure",
+        "itemCount": 9,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_002",
+          "ACC_014",
+          "ACC_026",
+          "ACC_038",
+          "ACC_050",
+          "ACC_062",
+          "ACC_074",
+          "ACC_086",
+          "ACC_098"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Evidence Evaluation",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_011",
+          "ACC_023",
+          "ACC_035",
+          "ACC_047",
+          "ACC_059",
+          "ACC_071",
+          "ACC_083",
+          "ACC_095"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Reading Synthesis",
+        "difficultyTier": "C1-high",
+        "itemCount": 9,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_004",
+          "ACC_016",
+          "ACC_028",
+          "ACC_040",
+          "ACC_052",
+          "ACC_064",
+          "ACC_076",
+          "ACC_088",
+          "ACC_100"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Reading Synthesis",
+        "difficultyTier": "C2-entry",
+        "itemCount": 9,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_001",
+          "ACC_013",
+          "ACC_025",
+          "ACC_037",
+          "ACC_049",
+          "ACC_061",
+          "ACC_073",
+          "ACC_085",
+          "ACC_097"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Reading Synthesis",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_010",
+          "ACC_022",
+          "ACC_034",
+          "ACC_046",
+          "ACC_058",
+          "ACC_070",
+          "ACC_082",
+          "ACC_094"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Reading Synthesis",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_007",
+          "ACC_019",
+          "ACC_031",
+          "ACC_043",
+          "ACC_055",
+          "ACC_067",
+          "ACC_079",
+          "ACC_091"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Rhetorical Inference",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_012",
+          "ACC_024",
+          "ACC_036",
+          "ACC_048",
+          "ACC_060",
+          "ACC_072",
+          "ACC_084",
+          "ACC_096"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Rhetorical Inference",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_009",
+          "ACC_021",
+          "ACC_033",
+          "ACC_045",
+          "ACC_057",
+          "ACC_069",
+          "ACC_081",
+          "ACC_093"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Rhetorical Inference",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_006",
+          "ACC_018",
+          "ACC_030",
+          "ACC_042",
+          "ACC_054",
+          "ACC_066",
+          "ACC_078",
+          "ACC_090"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "A",
+        "skillModule": "Rhetorical Inference",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 9,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "false synchrony",
+          "irrelevant policy leap",
+          "modal overclaim",
+          "scope inflation"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_003",
+          "ACC_015",
+          "ACC_027",
+          "ACC_039",
+          "ACC_051",
+          "ACC_063",
+          "ACC_075",
+          "ACC_087",
+          "ACC_099"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Abstract Revision",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_111",
+          "ACC_123",
+          "ACC_135",
+          "ACC_147",
+          "ACC_159",
+          "ACC_171",
+          "ACC_183",
+          "ACC_195"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Abstract Revision",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_108",
+          "ACC_120",
+          "ACC_132",
+          "ACC_144",
+          "ACC_156",
+          "ACC_168",
+          "ACC_180",
+          "ACC_192"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Abstract Revision",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_105",
+          "ACC_117",
+          "ACC_129",
+          "ACC_141",
+          "ACC_153",
+          "ACC_165",
+          "ACC_177",
+          "ACC_189"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Abstract Revision",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 9,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_102",
+          "ACC_114",
+          "ACC_126",
+          "ACC_138",
+          "ACC_150",
+          "ACC_162",
+          "ACC_174",
+          "ACC_186",
+          "ACC_198"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Lexico-Syntactic Control",
+        "difficultyTier": "C1-high",
+        "itemCount": 9,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_103",
+          "ACC_115",
+          "ACC_127",
+          "ACC_139",
+          "ACC_151",
+          "ACC_163",
+          "ACC_175",
+          "ACC_187",
+          "ACC_199"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Lexico-Syntactic Control",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_112",
+          "ACC_124",
+          "ACC_136",
+          "ACC_148",
+          "ACC_160",
+          "ACC_172",
+          "ACC_184",
+          "ACC_196"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Lexico-Syntactic Control",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_109",
+          "ACC_121",
+          "ACC_133",
+          "ACC_145",
+          "ACC_157",
+          "ACC_169",
+          "ACC_181",
+          "ACC_193"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Lexico-Syntactic Control",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_106",
+          "ACC_118",
+          "ACC_130",
+          "ACC_142",
+          "ACC_154",
+          "ACC_166",
+          "ACC_178",
+          "ACC_190"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Use of Academic English",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_107",
+          "ACC_119",
+          "ACC_131",
+          "ACC_143",
+          "ACC_155",
+          "ACC_167",
+          "ACC_179",
+          "ACC_191"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Use of Academic English",
+        "difficultyTier": "C2-entry",
+        "itemCount": 9,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_104",
+          "ACC_116",
+          "ACC_128",
+          "ACC_140",
+          "ACC_152",
+          "ACC_164",
+          "ACC_176",
+          "ACC_188",
+          "ACC_200"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Use of Academic English",
+        "difficultyTier": "C2-secure",
+        "itemCount": 9,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_101",
+          "ACC_113",
+          "ACC_125",
+          "ACC_137",
+          "ACC_149",
+          "ACC_161",
+          "ACC_173",
+          "ACC_185",
+          "ACC_197"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "B",
+        "skillModule": "Use of Academic English",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "lexical near-miss",
+          "modal overclaim",
+          "scope inflation",
+          "syntactic inversion"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_110",
+          "ACC_122",
+          "ACC_134",
+          "ACC_146",
+          "ACC_158",
+          "ACC_170",
+          "ACC_182",
+          "ACC_194"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Data Interpretation",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_210",
+          "ACC_222",
+          "ACC_234",
+          "ACC_246",
+          "ACC_258",
+          "ACC_270",
+          "ACC_282",
+          "ACC_294"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Data Interpretation",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_207",
+          "ACC_219",
+          "ACC_231",
+          "ACC_243",
+          "ACC_255",
+          "ACC_267",
+          "ACC_279",
+          "ACC_291"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Data Interpretation",
+        "difficultyTier": "C2-secure",
+        "itemCount": 9,
+        "sourceDomains": [
+          "atmospheric health science",
+          "clinical AI",
+          "conservation genomics",
+          "embodied AI",
+          "science communication"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_204",
+          "ACC_216",
+          "ACC_228",
+          "ACC_240",
+          "ACC_252",
+          "ACC_264",
+          "ACC_276",
+          "ACC_288",
+          "ACC_300"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Data Interpretation",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 9,
+        "sourceDomains": [
+          "atmospheric modelling",
+          "exoplanet spectroscopy",
+          "multimodal pathology",
+          "permafrost carbon science",
+          "tabular machine learning"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_201",
+          "ACC_213",
+          "ACC_225",
+          "ACC_237",
+          "ACC_249",
+          "ACC_261",
+          "ACC_273",
+          "ACC_285",
+          "ACC_297"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Evidence-to-Claim Mapping",
+        "difficultyTier": "C1-high",
+        "itemCount": 8,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_206",
+          "ACC_218",
+          "ACC_230",
+          "ACC_242",
+          "ACC_254",
+          "ACC_266",
+          "ACC_278",
+          "ACC_290"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Evidence-to-Claim Mapping",
+        "difficultyTier": "C2-entry",
+        "itemCount": 9,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_203",
+          "ACC_215",
+          "ACC_227",
+          "ACC_239",
+          "ACC_251",
+          "ACC_263",
+          "ACC_275",
+          "ACC_287",
+          "ACC_299"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Evidence-to-Claim Mapping",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "clean-energy planning",
+          "climate informatics",
+          "computational pathology",
+          "environmental epidemiology",
+          "machine learning methodology"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_212",
+          "ACC_224",
+          "ACC_236",
+          "ACC_248",
+          "ACC_260",
+          "ACC_272",
+          "ACC_284",
+          "ACC_296"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Evidence-to-Claim Mapping",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "carbon-cycle science",
+          "climate modelling",
+          "exoplanet atmospheric science",
+          "research evaluation",
+          "robotic perception"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_209",
+          "ACC_221",
+          "ACC_233",
+          "ACC_245",
+          "ACC_257",
+          "ACC_269",
+          "ACC_281",
+          "ACC_293"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Methodological Reasoning",
+        "difficultyTier": "C1-high",
+        "itemCount": 9,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_202",
+          "ACC_214",
+          "ACC_226",
+          "ACC_238",
+          "ACC_250",
+          "ACC_262",
+          "ACC_274",
+          "ACC_286",
+          "ACC_298"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Methodological Reasoning",
+        "difficultyTier": "C2-entry",
+        "itemCount": 8,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_211",
+          "ACC_223",
+          "ACC_235",
+          "ACC_247",
+          "ACC_259",
+          "ACC_271",
+          "ACC_283",
+          "ACC_295"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Methodological Reasoning",
+        "difficultyTier": "C2-secure",
+        "itemCount": 8,
+        "sourceDomains": [
+          "cryosphere geochemistry",
+          "earth-system AI",
+          "meta-science",
+          "planetary atmospheres",
+          "robotics"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_208",
+          "ACC_220",
+          "ACC_232",
+          "ACC_244",
+          "ACC_256",
+          "ACC_268",
+          "ACC_280",
+          "ACC_292"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      },
+      {
+        "category": "C",
+        "skillModule": "Methodological Reasoning",
+        "difficultyTier": "PhD-screening",
+        "itemCount": 8,
+        "sourceDomains": [
+          "biodiversity monitoring",
+          "climate attribution",
+          "computational structural biology",
+          "energy systems",
+          "translational medicine"
+        ],
+        "trapTypes": [
+          "false causality",
+          "irrelevant policy leap",
+          "sample-size fallacy",
+          "statistical misread"
+        ],
+        "weakDistractorItems": 0,
+        "optionRiskItems": 0,
+        "items": [
+          "ACC_205",
+          "ACC_217",
+          "ACC_229",
+          "ACC_241",
+          "ACC_253",
+          "ACC_265",
+          "ACC_277",
+          "ACC_289"
+        ],
+        "sourceDomainCount": 5,
+        "trapTypeCount": 4,
+        "coverageStatus": "covered"
+      }
+    ]
+  },
+  "limitations": [
+    "Coverage is blueprint evidence, not a substitute for independent construct-validity review.",
+    "Cells marked covered still require expert confirmation of item-level construct alignment."
+  ]
+}

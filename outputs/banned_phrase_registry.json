@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-06-26T21:16:31.030Z",
+  "registry": [
+    {
+      "pattern": "proves.*general solution",
+      "severity": "high",
+      "reason": "Absolute proof framing usually weakens academic validity unless explicitly contrasted as a flawed draft."
+    },
+    {
+      "pattern": "automatically eliminates missing-data bias",
+      "severity": "high",
+      "reason": "Sample-size-only bias removal is an intentionally bad distractor and should not leak into passages."
+    },
+    {
+      "pattern": "must determine .* removes remaining uncertainty",
+      "severity": "medium",
+      "reason": "Overstrong modal phrasing should remain confined to distractors."
+    },
+    {
+      "pattern": "as if it represented",
+      "severity": "medium",
+      "reason": "Repeated explanatory formula can make rationales feel templated."
+    },
+    {
+      "pattern": "The implication is that a",
+      "severity": "medium",
+      "reason": "Generic opening creates weak rhetorical texture."
+    }
+  ]
+}

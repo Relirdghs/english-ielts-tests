@@ -1,0 +1,15 @@
+{
+  "name": "Academic C1-C2 Assessment",
+  "short_name": "C1-C2 Assessment",
+  "start_url": "./academic_test_platform.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070a0f",
+  "theme_color": "#070a0f",
+  "description": "Offline-capable academic C1-C2 assessment platform with local progress persistence.",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "lang": "en"
+}

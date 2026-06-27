@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-06-26T21:16:54.009Z",
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "checks": [
+    {
+      "name": "language",
+      "status": "pass",
+      "detail": "en"
+    },
+    {
+      "name": "title-and-h1",
+      "status": "pass",
+      "detail": "Academic C1-C2 Assessment / h1=1"
+    },
+    {
+      "name": "manifest-link",
+      "status": "pass",
+      "detail": "app.webmanifest"
+    },
+    {
+      "name": "skip-link",
+      "status": "pass",
+      "detail": "{\"skipLink\":true}"
+    },
+    {
+      "name": "landmarks",
+      "status": "pass",
+      "detail": "{\"banner\":true,\"main\":true,\"controls\":true,\"analytics\":true}"
+    },
+    {
+      "name": "question-region",
+      "status": "pass",
+      "detail": "{\"questionRegion\":true,\"optionsGroup\":true}"
+    },
+    {
+      "name": "status-live-region",
+      "status": "pass",
+      "detail": "{\"liveRegion\":true}"
+    },
+    {
+      "name": "progress-navigation",
+      "status": "pass",
+      "detail": "{\"progressNav\":true,\"activeProgressCurrent\":1}"
+    },
+    {
+      "name": "pressed-toggle-state",
+      "status": "pass",
+      "detail": "8"
+    },
+    {
+      "name": "collapsible-analytics-aria",
+      "status": "pass",
+      "detail": "{\"toggles\":8,\"controlledPanels\":8}"
+    },
+    {
+      "name": "progress-map-labels",
+      "status": "pass",
+      "detail": "300/300"
+    },
+    {
+      "name": "control-labels",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "data-visualization-accessibility",
+      "status": "pass",
+      "detail": "{\"visualizations\":1,\"labelledVisualizations\":1,\"rows\":3,\"tableFallbacks\":1}"
+    },
+    {
+      "name": "contrast-samples",
+      "status": "pass",
+      "detail": "[{\"selector\":\".prompt\",\"ratio\":17.06},{\"selector\":\".option span\",\"ratio\":17.06},{\"selector\":\"button\",\"ratio\":17.06},{\"selector\":\".muted\",\"ratio\":8.42},{\"selector\":\".chip\",\"ratio\":8.42},{\"selector\":\".source a\",\"ratio\":6.84}]"
+    },
+    {
+      "name": "focus-visible",
+      "status": "pass",
+      "detail": "{\"tag\":\"A\",\"text\":\"Skip to question\",\"outlineStyle\":\"solid\",\"outlineWidth\":\"3px\"}"
+    },
+    {
+      "name": "skip-link-activation",
+      "status": "pass",
+      "detail": "{\"activeId\":\"question-panel\",\"targetTop\":0}"
+    },
+    {
+      "name": "shortcut-dialog-aria",
+      "status": "pass",
+      "detail": "{\"visible\":true,\"label\":\"Keyboard shortcuts\"}"
+    },
+    {
+      "name": "mobile-overflow",
+      "status": "pass",
+      "detail": "{\"horizontalOverflow\":false,\"actionableControls\":374}"
+    },
+    {
+      "name": "console-health",
+      "status": "pass",
+      "detail": ""
+    }
+  ],
+  "staticChecks": {
+    "lang": "en",
+    "title": "Academic C1-C2 Assessment",
+    "h1": 1,
+    "manifest": "app.webmanifest",
+    "skipLink": true,
+    "landmarks": {
+      "banner": true,
+      "main": true,
+      "controls": true,
+      "analytics": true
+    },
+    "progressNav": true,
+    "liveRegion": true,
+    "questionRegion": true,
+    "optionsGroup": true,
+    "activeProgressCurrent": 1,
+    "pressedToggles": 8,
+    "collapsibleAnalytics": {
+      "toggles": 8,
+      "controlledPanels": 8
+    },
+    "mapDotsWithLabels": 300,
+    "unlabeledControls": [],
+    "contrastSamples": [
+      {
+        "selector": ".prompt",
+        "ratio": 17.06
+      },
+      {
+        "selector": ".option span",
+        "ratio": 17.06
+      },
+      {
+        "selector": "button",
+        "ratio": 17.06
+      },
+      {
+        "selector": ".muted",
+        "ratio": 8.42
+      },
+      {
+        "selector": ".chip",
+        "ratio": 8.42
+      },
+      {
+        "selector": ".source a",
+        "ratio": 6.84
+      }
+    ],
+    "dialogReady": true
+  },
+  "dataVisualizationAccessibility": {
+    "visualizations": 1,
+    "labelledVisualizations": 1,
+    "rows": 3,
+    "tableFallbacks": 1
+  },
+  "focusCheck": {
+    "tag": "A",
+    "text": "Skip to question",
+    "outlineStyle": "solid",
+    "outlineWidth": "3px"
+  },
+  "skipActivation": {
+    "activeId": "question-panel",
+    "targetTop": 0
+  },
+  "shortcutDialog": {
+    "visible": true,
+    "label": "Keyboard shortcuts"
+  },
+  "mobileMetrics": {
+    "horizontalOverflow": false,
+    "actionableControls": 374
+  },
+  "failures": []
+}

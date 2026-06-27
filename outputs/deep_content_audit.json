@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-06-27T06:41:27.274Z",
+  "counts": {
+    "total": 300,
+    "A": 100,
+    "B": 100,
+    "C": 100
+  },
+  "wordCount": {
+    "min": 150,
+    "max": 174
+  },
+  "answerDistribution": {
+    "A": 98,
+    "B": 74,
+    "C": 88,
+    "D": 75,
+    "E": 99
+  },
+  "duplicatePassages": 0,
+  "duplicateOptions": 0,
+  "repeatedOpenings10": 11,
+  "repeatedOpenings20": 0,
+  "sourceUrls": {
+    "unique": 30,
+    "articleLevelItems": 300
+  },
+  "itemMetadata": {
+    "withDataDisplays": 100,
+    "withSourceVerification": 300,
+    "withReviewChecklists": 300,
+    "withPlausibilityRatings": 300,
+    "constructCoverageCells": 36,
+    "distractorQualityItems": 300,
+    "weakDistractorItems": 0,
+    "hygieneStatus": "pass",
+    "hygieneFindings": 0,
+    "governanceStatus": "governance-ready-human-gates-pending",
+    "governanceFindings": 0,
+    "scoreInterpretationStatus": "provisional-score-interpretation-ready",
+    "provisionalScoreBands": 4,
+    "cefrInterpretationStatus": "cefr-interpretation-ready",
+    "cefrInterpretationBands": 4,
+    "adaptiveStatus": "heuristic-adaptive-ready-calibrated-cat-pending",
+    "adaptiveMinimumSkillPool": 33,
+    "dataVisualizationStatus": "data-visualization-ready",
+    "categoryCMiniGraphs": 100,
+    "examProtocolStatus": "exam-protocol-ready",
+    "examProtocolSections": 3,
+    "sectionRandomizationStatus": "section-randomization-ready",
+    "sectionRandomizationSections": 3,
+    "sessionManagementStatus": "session-management-ready",
+    "sessionManagementActions": 5,
+    "visualSnapshotStatus": "visual-snapshot-pass",
+    "visualSnapshotScenes": 4,
+    "exportIntegrityStatus": "export-integrity-pass",
+    "exportIntegrityChecks": 8,
+    "operationsStatus": "operations-ready-controlled-beta",
+    "operationsControls": 8
+  },
+  "failures": []
+}

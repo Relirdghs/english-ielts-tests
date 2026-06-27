@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-06-26T21:16:30.993Z",
+  "bankVersion": "ACC-C1C2-2026.27",
+  "schemaVersion": "2.25.0",
+  "status": "section-randomization-ready",
+  "seedPolicy": "deterministic per attempt through acc_random_seed",
+  "preservationRule": "Randomized full-exam order must keep A positions 1-100, B positions 101-200 and C positions 201-300.",
+  "sections": [
+    {
+      "key": "A",
+      "itemCount": 100,
+      "firstPosition": 1,
+      "lastPosition": 100,
+      "firstItem": "ACC_015",
+      "lastItem": "ACC_051",
+      "orderChanged": true
+    },
+    {
+      "key": "B",
+      "itemCount": 100,
+      "firstPosition": 101,
+      "lastPosition": 200,
+      "firstItem": "ACC_171",
+      "lastItem": "ACC_166",
+      "orderChanged": true
+    },
+    {
+      "key": "C",
+      "itemCount": 100,
+      "firstPosition": 201,
+      "lastPosition": 300,
+      "firstItem": "ACC_237",
+      "lastItem": "ACC_297",
+      "orderChanged": true
+    }
+  ],
+  "runtimeState": [
+    "acc_random_questions",
+    "acc_random_seed",
+    "session.questionOrder"
+  ],
+  "checks": [
+    {
+      "name": "runtime-section-randomizer",
+      "status": "pass"
+    },
+    {
+      "name": "runtime-order-snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "section-boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "order-changes-inside-sections",
+      "status": "pass"
+    },
+    {
+      "name": "candidate-copy",
+      "status": "pass"
+    }
+  ],
+  "failures": []
+}

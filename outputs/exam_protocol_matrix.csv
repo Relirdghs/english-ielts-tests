@@ -1,0 +1,4 @@
+"section","label","start","end","minutes","break_after_minutes","item_count","first_item","last_item","complete"
+"A","Reading Synthesis","1","100","90","10","100","ACC_001","ACC_100","true"
+"B","Use of Academic English","101","200","90","10","100","ACC_101","ACC_200","true"
+"C","Data Interpretation","201","300","90","0","100","ACC_201","ACC_300","true"
